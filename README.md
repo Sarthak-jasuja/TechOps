@@ -1,2 +1,103 @@
-# TechOps
-project for Call2code Hackathon 
+Nudge – Personalized AI Motivation App 💡
+==========================================
+
+Welcome to **Nudge**, your personalized motivational planner designed for dreamers, builders, and doers. Whether you're an aspiring software engineer or planning your next startup, Nudge helps you break down your goals into actionable steps and stay consistent—with AI-powered planning and motivational Quote Mailing system.
+
+🏆 This project was built for our **first hackathon**, showcasing a real-world solution for personal productivity powered by generative AI.
+
+---
+
+🚀 Features
+-----------
+- 🎯 Smart goal collection and obstacle identification
+- 💬 AI-generated personalized motivational plans and roadmaps using Google Gemini (Gemini 2.5 Flash)
+- 📅 One-click Google Calendar sync to schedule your next steps
+- ⏳ Typing animation for lifelike AI replies
+- ✅ Simple, clean, and mobile-responsive UI
+- 🔙 Multi-step form with back-and-forth navigation
+- 📂 Modular and scalable React component structure
+
+---
+
+🧠 How It Works
+---------------
+1. User sets a goal
+2. User enters one or more obstacles
+3. Gemini API processes the input to return an encouraging plan
+4. User gets a 3-step motivational guide and roadmap
+5. They can choose to get a motivational quote as remainder to work hard to achieve success.
+
+---
+
+📁 Project Structure
+--------------------
+/src
+  ├── components
+  │   ├── GoalForm.jsx
+  │   ├── ObstacleForm.jsx
+  │   ├── Confirmation.jsx
+  │   ├── Suggestions.jsx
+  │   ├── GoogleCalendarSync.jsx
+  |   ├── SignUp.jsx
+  |   ├── Transformation.jsx  
+  │   ├── Navbar.jsx
+  │   ├── Features.jsx
+  │   ├── About.jsx
+  │   └── ContactUs.jsx
+  ├── utils
+  │   └── gemini.js
+  ├── App.jsx
+  └── main.jsx
+
+---
+
+1. Clone the repository:
+   git clone https://github.com/Sarthak-jasuja/TechOps.git
+   cd TechOps
+
+2. Install dependencies:
+   npm install
+
+3. Set up environment variables:
+   Create a `.env` file in the root folder with the following content:
+   VITE_GEMINI_API_KEY=your_gemini_api_key_here
+
+4. Start the development server:
+   npm run dev
+
+---
+
+📷 Screenshots
+--------------
+You can add your own screenshots inside the `/public/screenshots/` folder and reference them here:
+
+### Landing Page
+![Landing](./Users/sarthakjasuja/Desktop/TechOps/Nudge/public/img/Screenshot 2025-07-06 at 2.09.48 AM.png)
+
+### AI Response
+![Suggestions](./Users/sarthakjasuja/Desktop/TechOps/Nudge/public/img/Screenshot 2025-07-06 at 2.12.44 AM.png)
+
+### Mail signup 
+![Calendar](/Users/sarthakjasuja/Desktop/TechOps/Nudge/public/img/Screenshot 2025-07-06 at 2.15.15 AM.png)
+
+---
+
+🛠 Tech Stack
+-------------
+- React + Vite
+- TailwindCSS
+- Google Generative AI (Gemini)
+- Google Calendar API
+- Headless UI
+
+---
+
+🧑‍💻 Built With ❤️ at Our First Hackathon
+-----------------------------------------
+This project was created as part of a beginner-friendly hackathon experience. We learned a lot about APIs, prompt engineering, and product thinking while building this.
+
+---
+
+📄 License
+----------
+MIT License – Free to use and modify.

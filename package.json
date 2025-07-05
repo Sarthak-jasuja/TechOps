@@ -23,5 +23,8 @@
     "framer-motion": "^12.23.0",
     "react-confetti": "^6.4.0",
     "react-router-dom": "^7.6.3"
+  },
+  "devDependencies": {
+    "vite": "^7.0.2"
   }
 }

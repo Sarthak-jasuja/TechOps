@@ -29,28 +29,6 @@ Welcome to **Nudge**, your personalized motivational planner designed for dreame
 
 ---
 
-📁 Project Structure
---------------------
-/src
-  ├── components
-  │   ├── GoalForm.jsx
-  │   ├── ObstacleForm.jsx
-  │   ├── Confirmation.jsx
-  │   ├── Suggestions.jsx
-  │   ├── GoogleCalendarSync.jsx
-  |   ├── SignUp.jsx
-  |   ├── Transformation.jsx  
-  │   ├── Navbar.jsx
-  │   ├── Features.jsx
-  │   ├── About.jsx
-  │   └── ContactUs.jsx
-  ├── utils
-  │   └── gemini.js
-  ├── App.jsx
-  └── main.jsx
-
----
-
 1. Clone the repository:
    git clone https://github.com/Sarthak-jasuja/TechOps.git
    cd TechOps
@@ -69,16 +47,18 @@ Welcome to **Nudge**, your personalized motivational planner designed for dreame
 
 📷 Screenshots
 --------------
-You can add your own screenshots inside the `/public/screenshots/` folder and reference them here:
 
 ### Landing Page
-![Landing](./Users/sarthakjasuja/Desktop/TechOps/Nudge/public/img/Screenshot 2025-07-06 at 2.09.48 AM.png)
+<img width="1469" alt="Screenshot 2025-07-06 at 2 09 48 AM" src="https://github.com/user-attachments/assets/04ea843d-9069-443d-bb00-f23f3d220f52" />
+
 
 ### AI Response
-![Suggestions](./Users/sarthakjasuja/Desktop/TechOps/Nudge/public/img/Screenshot 2025-07-06 at 2.12.44 AM.png)
+<img width="1465" alt="Screenshot 2025-07-06 at 2 12 44 AM" src="https://github.com/user-attachments/assets/7ac60e02-c715-450f-aff1-890915681779" />
+
 
 ### Mail signup 
-![Calendar](/Users/sarthakjasuja/Desktop/TechOps/Nudge/public/img/Screenshot 2025-07-06 at 2.15.15 AM.png)
+<img width="1462" alt="Screenshot 2025-07-06 at 2 15 15 AM" src="https://github.com/user-attachments/assets/6f24290d-9935-4e25-992a-3c598f6384b2" />
+
 
 ---
 
@@ -94,7 +74,7 @@ You can add your own screenshots inside the `/public/screenshots/` folder and re
 
 🧑‍💻 Built With ❤️ at Our First Hackathon
 -----------------------------------------
-This project was created as part of a beginner-friendly hackathon experience. We learned a lot about APIs, prompt engineering, and product thinking while building this.
+This project was created by Sarthak Jasuja and Madhav Pruthi (team - techOps) as part of a beginner-friendly hackathon experience. We learned a lot about APIs, prompt engineering, and product thinking while building this.
 
 ---
 

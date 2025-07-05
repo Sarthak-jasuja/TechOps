@@ -1,0 +1,27 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarthak-jasuja/TechOps.git"
+  },
+  "author": "Sarthak Jasuja |  Madhav Pruthi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sarthak-jasuja/TechOps/issues"
+  },
+  "homepage": "https://github.com/Sarthak-jasuja/TechOps#readme",
+  "description": "",
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@google/genai": "^1.8.0",
+    "@google/generative-ai": "^0.24.1",
+    "framer-motion": "^12.23.0",
+    "react-confetti": "^6.4.0",
+    "react-router-dom": "^7.6.3"
+  }
+}
